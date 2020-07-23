@@ -80,6 +80,7 @@ int main(){
     	cout<<findsum(0,0,n-1,l,r)<<endl;
     	else{
     		int val=r-arr[l];
+		arr[l]=r;
     		update(l,val,0,n-1,0);
     	}
     }
